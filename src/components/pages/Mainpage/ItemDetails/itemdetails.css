@@ -1,0 +1,80 @@
+
+
+/* ===================
+    Item Description Styles
+    ==================== */
+
+    .price-div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media(max-width : 768px){
+        .price-div{
+            display : block
+        }
+    }
+
+
+
+/* ===================
+    Description Styles
+    ==================== */
+
+.item-description{
+    display: flex;
+}
+
+.img-div{
+    height: 100px;
+    width: 100px;
+}
+
+.img-div img{
+    width : 100%;
+}
+
+.description h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.description span{
+    font-size: 1rem;
+}
+
+
+
+/* ===================
+    Price Styles
+    ==================== */
+
+
+.item-price{
+    background: #bbb;
+    width:45% ;
+    height: 300px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.item-price h5, .item-price h6{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.location-price{
+    display: flex;
+    justify-content: space-between;
+    padding:  0.5rem;
+    margin-top: 5rem;
+    border-bottom: 1px solid #000;
+}
+
+@media(max-width : 768px){
+    .item-price{
+        width: 100%;
+    }
+}
+
